@@ -1,0 +1,47 @@
+﻿<Window x:Class="DesignPatterns.ModelViewController.BeatPlayer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DesignPatterns.ModelViewController"
+        mc:Ignorable="d"
+        
+        Title="DJ Controller" Height="200" Width="200">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+     
+        <Label Grid.Row="0" Grid.ColumnSpan="2" Width="Auto" Height="25" HorizontalAlignment="Stretch">DJ Control</Label>
+        <Label Grid.Row="1" Grid.Column="0" Width="Auto" Height="25" HorizontalAlignment="Stretch">Enter BPM:</Label>
+        <TextBox x:Name="txtBPM" Grid.Row="1" Grid.Column="1" Height="25" HorizontalAlignment="Stretch"></TextBox>
+        <Button x:Name="btnSet" Grid.Row="2" Grid.ColumnSpan="2" Width="Auto" Height="25" HorizontalAlignment="Stretch" Click="Button_Click">Set</Button>
+
+        <Button x:Name="btnDown" Grid.Row="3" Grid.Column="0" Width="Auto" Height="25" HorizontalAlignment="Stretch" Click="Button_Click">Down</Button>
+        <Button x:Name="btnUp" Grid.Row="3" Grid.Column="1" Width="Auto" Height="25" HorizontalAlignment="Stretch" Click="Button_Click">Up</Button>       
+
+        <local:BeatBar x:Name="beatBar" Grid.Row="4" Grid.ColumnSpan="2" Height="25"/>
+
+        <Label Grid.Column="0" Grid.Row="5" HorizontalAlignment="Stretch" Height="25">Current BPM:</Label>
+        <Label Name="lblBPMOutput" Grid.Column="1" Grid.Row="5" HorizontalAlignment="Stretch" Height="25"></Label>
+
+        <Button x:Name="btnStart" Grid.Row="6" Grid.Column="0" Width="Auto" Height="25" HorizontalAlignment="Stretch" Click="Button_Click">Start</Button>
+        <Button x:Name="btnStop" Grid.Row="6" Grid.Column="1" Width="Auto" Height="25" HorizontalAlignment="Stretch" Click="Button_Click">Stop</Button>
+
+
+        <Button Grid.Row="7" Grid.ColumnSpan="2" Width="Auto" Height="25" HorizontalAlignment="Stretch" Click="Button_Click">Close</Button>
+
+    </Grid>
+</Window>

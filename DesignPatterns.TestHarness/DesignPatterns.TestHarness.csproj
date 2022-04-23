@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Unity" Version="5.11.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DesignPatterns.AdapterAndFacade\DesignPatterns.Adapter.csproj" />
+    <ProjectReference Include="..\DesignPatterns.Behaviours\DesignPatterns.Behaviours.csproj" />
+    <ProjectReference Include="..\DesignPatterns.Bridge\DesignPatterns.Bridge.csproj" />
+    <ProjectReference Include="..\DesignPatterns.Builder\DesignPatterns.Builder.csproj" />
+    <ProjectReference Include="..\DesignPatterns.ChainOfResponsibility\DesignPatterns.ChainOfResponsibility.csproj" />
+    <ProjectReference Include="..\DesignPatterns.Command\DesignPatterns.Command.csproj" />
+    <ProjectReference Include="..\DesignPatterns.Common\DesignPatterns.Common.csproj" />
+    <ProjectReference Include="..\DesignPatterns.Composite\DesignPatterns.Composite.csproj" />
+    <ProjectReference Include="..\DesignPatterns.Compound\DesignPatterns.Compound.csproj" />
+    <ProjectReference Include="..\DesignPatterns.Decorators\DesignPatterns.Decorators.csproj" />
+    <ProjectReference Include="..\DesignPatterns.Facade\DesignPatterns.Facade.csproj" />
+    <ProjectReference Include="..\DesignPatterns.Factory\DesignPatterns.Factory.csproj" />
+    <ProjectReference Include="..\DesignPatterns.Flyweight\DesignPatterns.Flyweight.csproj" />
+    <ProjectReference Include="..\DesignPatterns.Iterator\DesignPatterns.Iterator.csproj" />
+    <ProjectReference Include="..\DesignPatterns.Mediator\DesignPatterns.Mediator.csproj" />
+    <ProjectReference Include="..\DesignPatterns.Memento\DesignPatterns.Memento.csproj" />
+    <ProjectReference Include="..\DesignPatterns.ModelViewController\DesignPatterns.ModelViewController.csproj" />
+    <ProjectReference Include="..\DesignPatterns.Observer\DesignPatterns.Observer.csproj" />
+    <ProjectReference Include="..\DesignPatterns.Prototype\DesignPatterns.Prototype.csproj" />
+    <ProjectReference Include="..\DesignPatterns.Proxy\DesignPatterns.Proxy.csproj" />
+    <ProjectReference Include="..\DesignPatterns.Singleton\DesignPatterns.Singleton.csproj" />
+    <ProjectReference Include="..\DesignPatterns.State\DesignPatterns.State.csproj" />
+    <ProjectReference Include="..\DesignPatterns.Template\DesignPatterns.Template.csproj" />
+    <ProjectReference Include="..\DesignPatterns.Visitor\DesignPatterns.Visitor.csproj" />
+  </ItemGroup>
+
+</Project>

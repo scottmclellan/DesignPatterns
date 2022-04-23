@@ -1,0 +1,192 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Claps\clap-bathroom-01.wav" />
+    <None Remove="Resources\Claps\clap-bathroom-02.wav" />
+    <None Remove="Resources\Claps\clap-bathroom-03.wav" />
+    <None Remove="Resources\Claps\clap-bathroom-04.wav" />
+    <None Remove="Resources\Claps\clap-bathroom-05.wav" />
+    <None Remove="Resources\Claps\clap-bathroom-06.wav" />
+    <None Remove="Resources\Claps\clap-bathroom-07.wav" />
+    <None Remove="Resources\Claps\clap-bathroom-08.wav" />
+    <None Remove="Resources\Claps\clap-bathroom-09.wav" />
+    <None Remove="Resources\Claps\clap-bathroom-10.wav" />
+    <None Remove="Resources\Claps\clap-corridor-01.wav" />
+    <None Remove="Resources\Claps\clap-corridor-02.wav" />
+    <None Remove="Resources\Claps\clap-corridor-03.wav" />
+    <None Remove="Resources\Claps\clap-corridor-04.wav" />
+    <None Remove="Resources\Claps\clap-corridor-05.wav" />
+    <None Remove="Resources\Claps\clap-corridor-06.wav" />
+    <None Remove="Resources\Claps\clap-corridor-07.wav" />
+    <None Remove="Resources\Claps\clap-corridor-08.wav" />
+    <None Remove="Resources\Claps\clap-corridor-09.wav" />
+    <None Remove="Resources\Claps\clap-corridor-10.wav" />
+    <None Remove="Resources\Claps\clap-hall-01.wav" />
+    <None Remove="Resources\Claps\clap-hall-02.wav" />
+    <None Remove="Resources\Claps\clap-hall-03.wav" />
+    <None Remove="Resources\Claps\clap-hall-04.wav" />
+    <None Remove="Resources\Claps\clap-hall-05.wav" />
+    <None Remove="Resources\Claps\clap-hall-06.wav" />
+    <None Remove="Resources\Claps\clap-hall-07.wav" />
+    <None Remove="Resources\Claps\clap-hall-08.wav" />
+    <None Remove="Resources\Claps\clap-hall-09.wav" />
+    <None Remove="Resources\Claps\clap-hall-10.wav" />
+    <None Remove="Resources\Claps\clap-hall-11.wav" />
+    <None Remove="Resources\Claps\clap-room-01.wav" />
+    <None Remove="Resources\Claps\clap-room-02.wav" />
+    <None Remove="Resources\Claps\clap-room-03.wav" />
+    <None Remove="Resources\Claps\clap-room-04.wav" />
+    <None Remove="Resources\Claps\clap-room-05.wav" />
+    <None Remove="Resources\Claps\clap-room-06.wav" />
+    <None Remove="Resources\Claps\clap-room-07.wav" />
+    <None Remove="Resources\Claps\clap-room-08.wav" />
+    <None Remove="Resources\Claps\clap-room-09.wav" />
+    <None Remove="Resources\Claps\clap-room-10.wav" />
+    <None Remove="Resources\Claps\clap-room-11.wav" />
+    <None Remove="Resources\Claps\clap-room-12.wav" />
+    <None Remove="Resources\Claps\clap-room-13.wav" />
+    <None Remove="Resources\Claps\clap-room-14.wav" />
+    <None Remove="Resources\Claps\clap-room-15.wav" />
+    <None Remove="Resources\Claps\clap-room-16.wav" />
+    <None Remove="Resources\Claps\clap-room-17.wav" />
+    <None Remove="Resources\Claps\clap-room-18.wav" />
+    <None Remove="Resources\Claps\clap-room-19.wav" />
+    <None Remove="Resources\Claps\clap-room-20.wav" />
+    <None Remove="Resources\Claps\clap-room-21.wav" />
+    <None Remove="Resources\Claps\clap-room-22.wav" />
+    <None Remove="Resources\Claps\clap-room-23.wav" />
+    <None Remove="Resources\Claps\clap-room-24.wav" />
+    <None Remove="Resources\Claps\clap-room-25.wav" />
+    <None Remove="Resources\Claps\clap-room-26.wav" />
+    <None Remove="Resources\Claps\clap-room-27.wav" />
+    <None Remove="Resources\Claps\clap-room-28.wav" />
+    <None Remove="Resources\Claps\clap-room-29.wav" />
+    <None Remove="Resources\Claps\clap-room-30.wav" />
+    <None Remove="Resources\Claps\clap-toilet-01.wav" />
+    <None Remove="Resources\Claps\clap-toilet-02.wav" />
+    <None Remove="Resources\Claps\clap-toilet-03.wav" />
+    <None Remove="Resources\Claps\clap-toilet-04.wav" />
+    <None Remove="Resources\Claps\clap-toilet-05.wav" />
+    <None Remove="Resources\Claps\clap-toilet-06.wav" />
+    <None Remove="Resources\Claps\clap-toilet-07.wav" />
+    <None Remove="Resources\Claps\clap-toilet-08.wav" />
+    <None Remove="Resources\Claps\clap-toilet-09.wav" />
+    <None Remove="Resources\Claps\clap-toilet-10.wav" />
+    <None Remove="Resources\Claps\clap-toilet-11.wav" />
+    <None Remove="Resources\Claps\clap-toilet-12.wav" />
+    <None Remove="Resources\Claps\clap-toilet-13.wav" />
+    <None Remove="Resources\Claps\clap-toilet-14.wav" />
+    <None Remove="Resources\Claps\clap-toilet-15.wav" />
+    <None Remove="Resources\Claps\clap-toilet-16.wav" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DesignPatterns.Common\DesignPatterns.Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controller\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\Claps\clap-bathroom-01.wav" />
+    <Content Include="Resources\Claps\clap-bathroom-02.wav" />
+    <Content Include="Resources\Claps\clap-bathroom-03.wav" />
+    <Content Include="Resources\Claps\clap-bathroom-04.wav" />
+    <Content Include="Resources\Claps\clap-bathroom-05.wav" />
+    <Content Include="Resources\Claps\clap-bathroom-06.wav" />
+    <Content Include="Resources\Claps\clap-bathroom-07.wav" />
+    <Content Include="Resources\Claps\clap-bathroom-08.wav" />
+    <Content Include="Resources\Claps\clap-bathroom-09.wav" />
+    <Content Include="Resources\Claps\clap-bathroom-10.wav" />
+    <Content Include="Resources\Claps\clap-corridor-01.wav" />
+    <Content Include="Resources\Claps\clap-corridor-02.wav" />
+    <Content Include="Resources\Claps\clap-corridor-03.wav" />
+    <Content Include="Resources\Claps\clap-corridor-04.wav" />
+    <Content Include="Resources\Claps\clap-corridor-05.wav" />
+    <Content Include="Resources\Claps\clap-corridor-06.wav" />
+    <Content Include="Resources\Claps\clap-corridor-07.wav" />
+    <Content Include="Resources\Claps\clap-corridor-08.wav" />
+    <Content Include="Resources\Claps\clap-corridor-09.wav" />
+    <Content Include="Resources\Claps\clap-corridor-10.wav" />
+    <Content Include="Resources\Claps\clap-hall-01.wav" />
+    <Content Include="Resources\Claps\clap-hall-02.wav" />
+    <Content Include="Resources\Claps\clap-hall-03.wav" />
+    <Content Include="Resources\Claps\clap-hall-04.wav" />
+    <Content Include="Resources\Claps\clap-hall-05.wav" />
+    <Content Include="Resources\Claps\clap-hall-06.wav" />
+    <Content Include="Resources\Claps\clap-hall-07.wav" />
+    <Content Include="Resources\Claps\clap-hall-08.wav" />
+    <Content Include="Resources\Claps\clap-hall-09.wav" />
+    <Content Include="Resources\Claps\clap-hall-10.wav" />
+    <Content Include="Resources\Claps\clap-hall-11.wav" />
+    <Content Include="Resources\Claps\clap-room-01.wav" />
+    <Content Include="Resources\Claps\clap-room-02.wav" />
+    <Content Include="Resources\Claps\clap-room-03.wav" />
+    <Content Include="Resources\Claps\clap-room-04.wav" />
+    <Content Include="Resources\Claps\clap-room-05.wav" />
+    <Content Include="Resources\Claps\clap-room-06.wav" />
+    <Content Include="Resources\Claps\clap-room-07.wav" />
+    <Content Include="Resources\Claps\clap-room-08.wav" />
+    <Content Include="Resources\Claps\clap-room-09.wav" />
+    <Content Include="Resources\Claps\clap-room-10.wav" />
+    <Content Include="Resources\Claps\clap-room-11.wav" />
+    <Content Include="Resources\Claps\clap-room-12.wav" />
+    <Content Include="Resources\Claps\clap-room-13.wav" />
+    <Content Include="Resources\Claps\clap-room-14.wav" />
+    <Content Include="Resources\Claps\clap-room-15.wav" />
+    <Content Include="Resources\Claps\clap-room-16.wav" />
+    <Content Include="Resources\Claps\clap-room-17.wav" />
+    <Content Include="Resources\Claps\clap-room-18.wav" />
+    <Content Include="Resources\Claps\clap-room-19.wav" />
+    <Content Include="Resources\Claps\clap-room-20.wav" />
+    <Content Include="Resources\Claps\clap-room-21.wav" />
+    <Content Include="Resources\Claps\clap-room-22.wav" />
+    <Content Include="Resources\Claps\clap-room-23.wav" />
+    <Content Include="Resources\Claps\clap-room-24.wav" />
+    <Content Include="Resources\Claps\clap-room-25.wav" />
+    <Content Include="Resources\Claps\clap-room-26.wav" />
+    <Content Include="Resources\Claps\clap-room-27.wav" />
+    <Content Include="Resources\Claps\clap-room-28.wav" />
+    <Content Include="Resources\Claps\clap-room-29.wav" />
+    <Content Include="Resources\Claps\clap-room-30.wav" />
+    <Content Include="Resources\Claps\clap-toilet-01.wav" />
+    <Content Include="Resources\Claps\clap-toilet-02.wav" />
+    <Content Include="Resources\Claps\clap-toilet-03.wav" />
+    <Content Include="Resources\Claps\clap-toilet-04.wav" />
+    <Content Include="Resources\Claps\clap-toilet-05.wav" />
+    <Content Include="Resources\Claps\clap-toilet-06.wav" />
+    <Content Include="Resources\Claps\clap-toilet-07.wav" />
+    <Content Include="Resources\Claps\clap-toilet-08.wav" />
+    <Content Include="Resources\Claps\clap-toilet-09.wav" />
+    <Content Include="Resources\Claps\clap-toilet-10.wav" />
+    <Content Include="Resources\Claps\clap-toilet-11.wav" />
+    <Content Include="Resources\Claps\clap-toilet-12.wav" />
+    <Content Include="Resources\Claps\clap-toilet-13.wav" />
+    <Content Include="Resources\Claps\clap-toilet-14.wav" />
+    <Content Include="Resources\Claps\clap-toilet-15.wav" />
+    <Content Include="Resources\Claps\clap-toilet-16.wav" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

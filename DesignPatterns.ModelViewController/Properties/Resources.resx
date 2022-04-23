@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="clap_bathroom_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-bathroom-01.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_bathroom_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-bathroom-02.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_bathroom_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-bathroom-03.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_bathroom_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-bathroom-04.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_bathroom_05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-bathroom-05.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_bathroom_06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-bathroom-06.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_bathroom_07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-bathroom-07.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_bathroom_08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-bathroom-08.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_bathroom_09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-bathroom-09.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_bathroom_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-bathroom-10.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_corridor_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-corridor-01.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_corridor_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-corridor-02.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_corridor_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-corridor-03.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_corridor_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-corridor-04.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_corridor_05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-corridor-05.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_corridor_06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-corridor-06.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_corridor_07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-corridor-07.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_corridor_08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-corridor-08.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_corridor_09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-corridor-09.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_corridor_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-corridor-10.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_hall_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-hall-01.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_hall_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-hall-02.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_hall_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-hall-03.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_hall_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-hall-04.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_hall_05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-hall-05.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_hall_06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-hall-06.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_hall_07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-hall-07.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_hall_08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-hall-08.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_hall_09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-hall-09.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_hall_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-hall-10.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_hall_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-hall-11.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_room_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-room-01.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_room_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-room-02.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_room_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-room-03.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_room_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-room-04.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_room_05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-room-05.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_room_06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-room-06.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_room_07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-room-07.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_room_08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-room-08.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_room_09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-room-09.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_room_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-room-10.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_room_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-room-11.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_room_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-room-12.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_room_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-room-13.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_room_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-room-14.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_room_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-room-15.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_room_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-room-16.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_room_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-room-17.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_room_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-room-18.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_room_19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-room-19.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_room_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-room-20.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_room_21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-room-21.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_room_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-room-22.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_room_23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-room-23.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_room_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-room-24.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_room_25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-room-25.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_room_26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-room-26.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_room_27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-room-27.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_room_28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-room-28.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_room_29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-room-29.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_room_30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-room-30.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_toilet_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-toilet-01.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_toilet_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-toilet-02.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_toilet_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-toilet-03.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_toilet_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-toilet-04.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_toilet_05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-toilet-05.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_toilet_06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-toilet-06.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_toilet_07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-toilet-07.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_toilet_08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-toilet-08.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_toilet_09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-toilet-09.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_toilet_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-toilet-10.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_toilet_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-toilet-11.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_toilet_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-toilet-12.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_toilet_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-toilet-13.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_toilet_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-toilet-14.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_toilet_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-toilet-15.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clap_toilet_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Claps\clap-toilet-16.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
